@@ -1,7 +1,7 @@
 ## install 
 
 ```js
-    npm i @aigens / virtual - keyboard
+    npm i @aigens/virtual-keyboard
 ```
 
 ## Using
@@ -10,7 +10,7 @@
     import {
         VirtualKeyboardJs
     } from '@aigens/virtual-keyboard';
-    
+
     this.virtualKeyboardJs = new VirtualKeyboardJs();
 
     if (this.virtualKeyboardJs.isElectron()) {
